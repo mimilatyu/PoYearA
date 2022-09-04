@@ -162,6 +162,7 @@ class MainFragment : Fragment() {
         return list
     }
 
+    // вытаскиваем данные из JsonObject
     private fun parseCurrentData(mainObject: JSONObject, weatherItem: WeatherModel) {
         val item = WeatherModel(
             mainObject.getJSONObject("location").getString("name"),
