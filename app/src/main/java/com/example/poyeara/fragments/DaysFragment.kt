@@ -17,6 +17,7 @@ import com.example.poyeara.databinding.FragmentHoursBinding
 
 class DaysFragment : Fragment(), WeatherAdapter.Listener {
 
+    //var для байндинга
     private lateinit var binding: FragmentDaysBinding
     private lateinit var adapter: WeatherAdapter
     private val model: MainViewModel by activityViewModels()
@@ -38,6 +39,8 @@ class DaysFragment : Fragment(), WeatherAdapter.Listener {
         }
     }
 
+
+    //инициализация
     private fun init() = with(binding) {
         adapter = WeatherAdapter(this@DaysFragment)
         rcView.layoutManager = LinearLayoutManager(activity)
