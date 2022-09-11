@@ -56,6 +56,7 @@ class WeatherAdapter(val listener: Listener?) : ListAdapter<WeatherModel, Weathe
     }
 
     //interface слушателя нажатий
+    //нажимаем на итем
     interface Listener{
         fun onClick(item: WeatherModel)
     }
