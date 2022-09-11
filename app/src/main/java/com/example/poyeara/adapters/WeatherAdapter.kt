@@ -55,6 +55,7 @@ class WeatherAdapter(val listener: Listener?) : ListAdapter<WeatherModel, Weathe
         holder.bind(getItem(position))
     }
 
+    //interface слушателя нажатий
     interface Listener{
         fun onClick(item: WeatherModel)
     }
