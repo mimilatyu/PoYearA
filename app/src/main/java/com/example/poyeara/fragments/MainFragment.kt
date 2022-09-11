@@ -16,7 +16,6 @@ import com.android.volley.Request
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.example.poyeara.MainViewModel
-import com.example.poyeara.adapters.VpAdapter
 import com.example.poyeara.adapters.WeatherModel
 import com.example.poyeara.databinding.FragmentMainBinding
 import com.google.android.gms.location.FusedLocationProviderClient
