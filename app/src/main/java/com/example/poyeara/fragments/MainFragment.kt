@@ -52,8 +52,6 @@ class MainFragment : Fragment() {
         return binding.root
     }
 
-
-    //вью создано, запускаются функции
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         checkPermission()
