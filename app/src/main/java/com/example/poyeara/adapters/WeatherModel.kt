@@ -1,6 +1,6 @@
 package com.example.poyeara.adapters
 
-//модель данных информации о погоде
+//модель данных информации о погоде ну и еще что-написал для теста
 data class WeatherModel(
     val city: String,
     val time: String,
