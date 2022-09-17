@@ -1,5 +1,7 @@
 package com.example.poyeara
 
+
+//данные о конкретном дне
 data class DayItem(
     val city: String,
     val time: String,

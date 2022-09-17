@@ -7,6 +7,8 @@ import com.example.poyeara.fragments.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
+
+    //при создании мэйнАктивити
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
